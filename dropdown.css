@@ -1,0 +1,82 @@
+nav{
+    box-shadow: 0 0 10px black;
+    padding: 5px;
+    height: 50px;
+  }
+  nav a{
+    color: black;
+    padding: 5px 10px;
+    text-decoration: none;
+    background: pink;
+    font-size: 15px;
+    display: inline-block;
+    border-radius: 10px;
+  }
+  .dwopdwonlist a{
+    background-color: brown;
+    display: block;
+  }
+  .dropdown{
+    display: inline-block;
+  }
+  .dwopdwonlist{
+    position: absolute;
+    margin-top:5px;
+    width: 150px;
+    margin-top: 2px;
+    display: none;
+  }
+  nav a:hover{
+    color: blue;
+    box-shadow: 0 0 10px black;
+  }
+  .dropdown:hover .dwopdwonlist{
+    display: block;
+    text-align: center;
+  }
+  .dwopdwonlist a:hover{
+    
+    background: black;
+    color: wheat;
+  }
+  .shaikhlist a{
+    background-color: brown;
+    display: block;
+  }
+  .shaikh{
+    display: inline-block;
+  }
+  .shaikhlist{
+    position: absolute;
+    padding: 5px;
+    width: 170px;
+    margin-top: 4px;
+    display: none;
+  }
+  .shaikh:hover .shaikhlist{
+    display: block;
+    text-align: center;
+  }
+  .sz a:hover{
+    background: black;
+    color: wheat;
+  }
+  
+  .szs a{
+    background-color: greenyellow;
+    display: block;
+  }
+  .szs{
+    display: inline-block;
+  }
+  .sz{
+    position: absolute;
+    padding: 2px;
+    width: 100px;
+    margin-top: 1px;
+    display: none;
+  }
+  .szs:hover .sz{
+    display: inline-block;
+    text-align: center;
+  }

@@ -1,0 +1,48 @@
+div
+{
+    background-color: teal;
+    color: black;
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+    margin: 20px;
+    border: 5px solid black;
+    width: 300px;
+}
+
+.para1
+{
+    position: static;
+    left: 400px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.para2
+{
+    position: relative;
+    right: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.para3
+{
+    position: absolute;
+    padding: 10px;
+    left: 50px;
+
+}
+
+.para4
+{
+    position: fixed;
+    right:0
+    top: 80px;
+}
+
+.para5
+{
+    position: sticky;
+    top: 0px;
+    width: 100px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
